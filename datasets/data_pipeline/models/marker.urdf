@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot name="simple_cuboid">
+  <link name="base_link">
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.05" />
+      </geometry>
+      <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0" />
+      </material>
+    </visual>
+
+
+
+   </link>
+</robot>

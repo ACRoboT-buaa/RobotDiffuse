@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+
+    <title>URDF Viewer Example</title>
+
+    <!-- <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.3/webcomponents-bundle.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.4.3/webcomponents-bundle.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300"
+      rel="stylesheet"
+    />
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body tabindex="0">
+    <div id="menu">
+      <ul id="urdf-options">
+        <li urdf="../datasets/data_pipeline/robofin/urdf/robots/panda_arm.urdf" color="#b2b2cc">
+          Panda
+        </li>
+      </ul>
+
+      <div id="controls" class="">
+        <div id="toggle-controls"></div>
+        <div id="start" class="toggle checked">起始姿态</div>
+        <div id="stop" class="toggle">终止姿态</div>
+        <label>
+          Up Axis
+          <select id="up-select">
+            <option value="+Z" selected>+Z</option>
+          </select>
+        </label>
+        <ul id="angle"></ul>
+        <ul id="obs1"></ul>
+        <ul id="obs2"></ul>
+        <button type="button" id="button4">读取本地生成结果</button>
+        <button type="button" id="cancel">停止</button>
+      </div>
+    </div>
+    <urdf-viewer up="+Z" display-shadow tabindex="0"></urdf-viewer>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./bundle/index.js"></script>
+  </body>
+</html>
