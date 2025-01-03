@@ -8,11 +8,16 @@ This repository provides the implementation of the _RobotDiffuse: Motion Plannin
 
 
 ## Citation
-Link to our paper [here!!!!!!!!!!需要更新](https://dl.acm.org/doi/10.1145/3637528.3671739).
+Link to our paper [here](https://arxiv.org/abs/2412.19500).
 If you use this code for your research, please cite our paper:
 
 ```
-XXXXXXX
+@article{zhang2024robotdiffuse,
+  title={RobotDiffuse: Motion Planning for Redundant Manipulator based on Diffusion Model},
+  author={Zhang, Xiaohan and Mou, Xudong and Wang, Rui and Wo, Tianyu and Gu, Ningbo and Wang, Tiejun and Xu, Cangbai and Liu, Xudong},
+  journal={arXiv preprint arXiv:2412.19500},
+  year={2024}
+}
 ```
 
 ## Installation
