@@ -134,4 +134,15 @@ Part of the code, especially the baseline code and ablation code, is based on th
 
 8. [PointNet]([charlesq34/pointnet: PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://github.com/charlesq34/pointnet))
 
+![output3](https://github.com/user-attachments/assets/76cf5875-3436-4eaa-92aa-69201c18ba3c)
+
+![output4](https://github.com/user-attachments/assets/91f26298-6e19-4a8c-b1c7-d803571eba87)
+
+![output8](https://github.com/user-attachments/assets/46924c8e-d223-4588-998a-323be7767327)
+
+![output15](https://github.com/user-attachments/assets/63ae1a2d-668d-4366-b31d-a90e345e08a0)
+
+![output19](https://github.com/user-attachments/assets/b1d4b791-81ca-4305-8a2b-7bb42a2c8762)
+
+
    
